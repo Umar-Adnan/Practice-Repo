@@ -26,7 +26,7 @@ This repository serves as a hands-on sandbox to experiment with core Git command
     Practice-Repo/
     ├── Backend/        # Server-side experiments, scripts, and API practice
     ├── Frontend/       # Client-side UI experiments, layouts, and components
-    └── README.md       # Project documentation
+    └── README.md       # Repository Description
 
 ---
 
