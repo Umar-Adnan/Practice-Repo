@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-ust for checking.
-=======
 <div align="center">
 
   <h1>🧪 Git & GitHub Practice Sandbox</h1>
@@ -59,4 +56,3 @@ This repository serves as a hands-on sandbox to experiment with core Git command
 <div align="center">
   <i>Maintained by <a href="https://github.com/Umar-Adnan">Umar Adnan</a></i>
 </div>
->>>>>>> f667a2dc9d09f776b4957055c89c501fcdc657a4
