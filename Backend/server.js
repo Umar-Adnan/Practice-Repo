@@ -28,7 +28,8 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify([
       { name: 'Umar Adnan', role: 'Maintainer' },
-      { name: 'Ibrahim Adnan', role: 'Contributor' }
+      { name: 'Ibrahim Adnan', role: 'Contributor' },
+      { name: 'Tayyab Yahya', role: 'Contributor' }
     ], null, 2));
   } else {
     res.writeHead(404, { 'Content-Type': 'application/json' });
