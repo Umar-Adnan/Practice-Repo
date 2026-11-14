@@ -9,3 +9,66 @@
     
 </body>
 </html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git & GitHub Practice Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🧪 Git &amp; GitHub Practice Hub</h1>
+      <p>Interactive command quick-reference and collaboration playground.</p>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>🚀 Quick Command Helper</h2>
+        <div class="search-box">
+          <input type="text" id="command-search" placeholder="Filter commands (e.g., branch, commit, push)...">
+        </div>
+        <ul id="command-list" class="command-list">
+          <li data-cmd="git checkout -b feature/name">
+            <code>git checkout -b &lt;branch&gt;</code>
+            <span>Create and switch to a new branch</span>
+            <button class="copy-btn">Copy</button>
+          </li>
+          <li data-cmd="git add .">
+            <code>git add .</code>
+            <span>Stage all modified and new files</span>
+            <button class="copy-btn">Copy</button>
+          </li>
+          <li data-cmd="git commit -m &quot;feat: description&quot;">
+            <code>git commit -m "..."</code>
+            <span>Record staged changes with a commit message</span>
+            <button class="copy-btn">Copy</button>
+          </li>
+          <li data-cmd="git push -u origin &lt;branch&gt;">
+            <code>git push -u origin &lt;branch&gt;</code>
+            <span>Push branch to remote repository</span>
+            <button class="copy-btn">Copy</button>
+          </li>
+          <li data-cmd="git status">
+            <code>git status</code>
+            <span>Check working tree status</span>
+            <button class="copy-btn">Copy</button>
+          </li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>📡 Backend Connection Test</h2>
+        <p>Test the local backend practice server (running on <code>http://localhost:3000</code>):</p>
+        <button id="check-api-btn" class="primary-btn">Check Backend Status</button>
+        <pre id="api-output" class="output-box">Press button to ping backend...</pre>
+      </section>
+    </main>
+
+    <footer>
+      <p>Maintained in Practice-Repo &bull; Contributed by Ibrahim Adnan</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
